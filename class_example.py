@@ -10,3 +10,10 @@ class Ph:
         print "ham"
 x=Ph()
 
+class student
+    def__init__(self,name):
+        self.name=name
+        self.attend=0
+        self.grades=[]
+
+
