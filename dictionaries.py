@@ -11,4 +11,18 @@ Arvid
 34
 >>> print stuff ['height']
 5 inches
+>>> stuff[1]="wat"
+>>> print stuff['name']
+Arvid
+>>> print stuff[1]
+wat
+>>> del stuff[]
+SyntaxError: invalid syntax
+>>> del stuff ['name']
+>>> print stuff['name']
+
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    print stuff['name']
+KeyError: 'name'
 >>> 
