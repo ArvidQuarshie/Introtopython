@@ -35,7 +35,7 @@ print "Michigan has %s" %hashmap.get(cities,hashmap.get(states,'Michigan'))
 print "Florida has %s" %hashmap.get(cities,hashmap.get(states,'Florida'))
 
 #print every state abbreviation
-prin t'_' * 10
+print'_' * 10
 hashmap.list(cities)
 
 print '_' * 10
