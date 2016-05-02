@@ -1,0 +1,48 @@
+Restful API : Representation state transfer from a web service. They use the following :
+http protocol and methods.
+
+These include the POST , GET , PUT , DELETE
+
+It is a microframework for python based on werzkeug ninja2 and good intentions.
+
+Lightweight framework that does what it needs to do.
+
+It has components for functionality such as:
+
+database 
+
+templates
+
+EXAMPLES OF RESTFUL APIS IN THE REAL WORLD
+
+
+
+Twitter Rest Api , Google Translate  Rest Api , Facebook rest Api , DropBox Rest Api
+
+#RESTFUL :conforms to the Rest Contraints
+
+###features of a RESTFUL API####
+
+Client Server:has independent front end and backend.
+
+Stateless: The client data is not stored on the server between requests and all session states are stored by the client.
+
+Cacheable: clients can cache response to improve the response.(like browsers)
+
+By complying to this standards this allows for a distributed hyper media system that has properties such as :
+
+Scalability , modificability , simplicity , Visibility , Portability , reliability
+
+
+FUNCTIONS IN  A RESTFUL API
+
+Patch :  update or modify
+
+post : create new resources
+
+Get : Read
+
+Put : Modify or update
+
+Delete : Remove
+
