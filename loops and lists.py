@@ -170,4 +170,24 @@ SyntaxError: EOL while scanning string literal
 	print_last_word(words)
 
 	
+>>> class song(object):
+	def__init__(self,lyrics):
+		
+SyntaxError: invalid syntax
+>>> class song(object):
+	def __init__(self,lyrics)
+	
+SyntaxError: invalid syntax
+>>> class song(object):
+	def __init__(self,lyrics):
+		self.lyrics=lyrics
+	def sing_me_a_song(self):
+		for line in self.lyrics:
+			print line
+    happy_bday=song(["happy birthday to you, I don't"])
+    
+  File "<pyshell#84>", line 7
+    happy_bday=song(["happy birthday to you, I don't"])
+                                                      ^
+IndentationError: unindent does not match any outer indentation level
 >>> 
