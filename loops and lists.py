@@ -125,4 +125,49 @@ the numbers:
 3
 4
 5
+>>> #functions practice
+>>> def break_words(stuff):
+	""" This funcrion will break up words for us:"""
+	words=stuff.split('')
+	return words
+
+>>> break_words(abracadabra)
+
+Traceback (most recent call last):
+  File "<pyshell#49>", line 1, in <module>
+    break_words(abracadabra)
+NameError: name 'abracadabra' is not defined
+>>> def sort_words(words):
+	#sorts the words
+	return sorted(words)
+
+>>> def print_first_word(words):
+	word=words.pop(0)
+	print word
+
+	
+>>> def print_last_words(words):
+	#prints the last word after popping it off
+	word=words.pop(0)
+	print word
+
+	
+>>> def sort_sentence(sentence):
+	#takes the full sentence and returns sorted word
+	words=break_words(sentence)
+	return sort_words(words)
+
+>>> def print_first_and_last(sentence):
+	#prints the first and last words of the sentence
+	words=break_words(sentence)
+	print_first_word(words)'
+	
+SyntaxError: EOL while scanning string literal
+>>> def print_first_and_last(sentence):
+	#prints the first and last words of the sentence
+	words=break_words(sentence)
+	print_first_word(words)
+	print_last_word(words)
+
+	
 >>> 
