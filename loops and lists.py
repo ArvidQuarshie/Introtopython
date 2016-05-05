@@ -66,3 +66,63 @@ elememt was 3
 elememt was 4
 elememt was 5
 >>> 
+
+>>> i=0
+>>> numbers=[]
+>>> while i<6:
+	print "at the top i is %d" %i
+	numbers.append(i)
+	i=i+1
+	print "Numbers now:",numbers
+	print "At the bottom i is %d " %i
+	print "the numbers:"
+	for num in numbers:
+		print num
+
+		
+at the top i is 0
+Numbers now: [0]
+At the bottom i is 1 
+the numbers:
+0
+at the top i is 1
+Numbers now: [0, 1]
+At the bottom i is 2 
+the numbers:
+0
+1
+at the top i is 2
+Numbers now: [0, 1, 2]
+At the bottom i is 3 
+the numbers:
+0
+1
+2
+at the top i is 3
+Numbers now: [0, 1, 2, 3]
+At the bottom i is 4 
+the numbers:
+0
+1
+2
+3
+at the top i is 4
+Numbers now: [0, 1, 2, 3, 4]
+At the bottom i is 5 
+the numbers:
+0
+1
+2
+3
+4
+at the top i is 5
+Numbers now: [0, 1, 2, 3, 4, 5]
+At the bottom i is 6 
+the numbers:
+0
+1
+2
+3
+4
+5
+>>> 
