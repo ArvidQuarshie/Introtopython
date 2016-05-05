@@ -41,4 +41,28 @@ the count is 2
 the count is 3
 the count is 4
 the count is 5
+>>> elements=[]
+>>> for i in range(0,6)
+SyntaxError: invalid syntax
+>>> for i in range(0,6):
+	print "adding %d to the list."%i
+	elements.append(i)
+
+	
+adding 0 to the list.
+adding 1 to the list.
+adding 2 to the list.
+adding 3 to the list.
+adding 4 to the list.
+adding 5 to the list.
+>>> for i in elements:
+	print "elememt was %d" %i
+
+	
+elememt was 0
+elememt was 1
+elememt was 2
+elememt was 3
+elememt was 4
+elememt was 5
 >>> 
