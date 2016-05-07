@@ -9,6 +9,7 @@ app=Flask(__name__)
 def index():
     return "the method used was" %request.method
 #app routes to the about page
+#post and get put in a list
 @app.route("/about",method=['GET','POST'])
 def example():
     if request.method=='POST':
