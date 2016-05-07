@@ -12,8 +12,12 @@ def index():
 @app.route('/sample')
 def sample():
     return "<h2> This is a sample </h2>"
+@app.route('/user/<int:userid>')
+def  userid(userid):
+    return" <h2>UserId %s</h2>"%userid
 
 @app.route('/profile/<username>')
+
 def profile (username):
     return "Hey there %s" %username
 
