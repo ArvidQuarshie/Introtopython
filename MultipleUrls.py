@@ -16,6 +16,13 @@ def index(user=None):
 
 #user=user refers to the name of the user when they log in
     return render_template("user.html",user=user)
+
+#passing objects to templates
+@app.route("/shopping")
+def shopping():
+    food=["cheese","Tuna","Beef"]
+    return render_template("shopping.html" food=food)
+
 #initializes the server
 if __name__=="__main__":
     app.run()
