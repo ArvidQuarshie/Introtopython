@@ -1,0 +1,11 @@
+#pseudocode
+
+#create a dictionary to hold the values
+
+#loop throught the dictionary value printing the values
+
+#need keypress function event to count the number of times a button is pressed.
+
+
+Keypress={'1':['none'],'2':['A','B','C'],'3':['D','E','F'],'4':['G','H','I'],'5':['J','K','L'],'6':['M','N','O'],'7':['P','Q','R'],'8':['S','T','U'],'9':['V','W','X','Z']}
+
